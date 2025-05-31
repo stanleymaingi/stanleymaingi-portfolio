@@ -1,0 +1,160 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Background only for home pages */
+.home-page {
+  background-image: url('image2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* ensures full height background */
+  color: white; /* optional: for readability */
+}
+
+/* Background only for project pages */
+.project-page {
+  background-image: url('image1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh; /* ensures full height background */
+  color: white; /* optional: for readability */
+}
+
+
+
+/* Header */
+header {
+    margin-top: 0.1rem;
+    font-size: 2rem;
+    display: flex;
+    margin-left: 40rem;
+    padding: 1rem;
+    color: navy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin: 1rem 0;
+    margin-left: 40rem;
+    margin-top: 0.1rem;
+
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 1rem;
+    color: cyan;
+}
+
+.nav-links a {
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Headings */
+h3 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color:hsla(175, 91.30%, 50.60%, 0.90);
+    
+}
+
+h4 {
+    margin-top: -2rem;
+    font-size: 2rem;
+    color:hsla(175, 91.30%, 50.60%, 0.90);
+}
+
+
+#para1 {
+    margin-top: 1rem;
+    font-size: 1.3rem;  
+    color: #1E90FF; /* Dodger Blue — modern, readable, calm */
+}
+
+
+
+.group1 {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+   color: #2E8B57; /* SeaGreen — natural and calming, good for emphasis */
+}
+
+.group2 {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+     color: #4B0082; /* Indigo — bold but readable, great for grouped content */
+}
+.group3 {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    color:hsla(175, 91.30%, 50.60%, 0.90);
+}
+
+/* Main Content Layout */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    padding: 2rem;
+}
+
+.left-content h3 {
+    font-size: 2.5rem;
+    color: rgb(244, 12, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left-content p {
+    font-size: 1rem;
+    color: red;
+}
+
+.left-content h4 {
+    font-size: 1rem;
+    color: cyan;
+}
+
+
+/* Right Image */
+.right-content img {
+    width: 400px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 70%;
+    margin-right: 1rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 5rem;
+    background-color:rgb(26, 26, 26);
+    color: purple;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1rem;
+    border-top: 2px solid #00bcd4;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
